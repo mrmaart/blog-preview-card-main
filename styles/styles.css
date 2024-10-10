@@ -1,0 +1,57 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  font-family: "Figtree", sans-serif;
+}
+
+.card {
+  max-width: 350px;
+  background-color: white;
+  /* text-align: center; */
+  border-radius: 20px;
+  padding: 20px;
+
+
+
+  img {
+    border-radius: 10px;
+  }
+
+  .tag {
+    background-color: hsl(47, 88%, 63%);
+    /* border: 1px; */
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 16px
+  }
+
+  .author {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-right: 20px;
+
+    p {
+      margin-left: 20px;
+      font-weight: bold;
+    }
+  }
+}
