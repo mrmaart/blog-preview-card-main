@@ -10,7 +10,7 @@ body {
 
 .card {
   max-width: 340px;
-  width: 90%;
+  width: 78%;
 
   background-color: white;
   /* text-align: center; */
@@ -51,6 +51,7 @@ body {
   }
   h1:hover {
     color: hsl(47, 88%, 63%);
+    cursor: pointer;
   }
 
   p {
